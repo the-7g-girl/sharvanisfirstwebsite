@@ -1,0 +1,83 @@
+body{
+	background: linear-gradient(to right,rgba(71, 255, 252,1) 5%,rgba(71, 255, 252,0.5) 60%);
+	font-size: 4em;
+	
+	
+	font-family: 'Coming Soon', cursive;
+
+
+}
+#title {
+	color: rgba(180, 0, 80,1);
+	font-weight: 10000;
+	font-family: 'Inspiration', cursive;
+	font-size: 4cm;
+	float: inherit;
+}
+
+.subtitle {
+	color: rgba(220, 16, 100,1);
+	font-family:  cursive;
+	font-size: 2cm;	
+	margin: 40px;
+	float: inherit;
+
+}
+
+#my-photo {
+	height: 600px;
+	width: 700px;
+	border: 10px double crimson;
+	
+	float: right;
+}
+
+#cycle-space {
+
+	height: 40vh;
+	width: 40vh;	
+	background: radial-gradient(circle,darkviolet,palevioletred);
+	border: 10px solid rgb(37, 62, 250) ;
+	padding: 20px;
+	margin: 100px;
+	float: bottom;
+	
+}	
+ 
+.link{
+	text-decoration: underline;
+	}
+
+#a-line{
+	text-decoration: underline;
+	font: bold;
+	font-style: oblique;
+	font-family: 'Oswald', sans-serif;
+}
+
+.table{
+	display: block;
+}
+
+.container{
+	background: white;
+	margin: 80px;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.item{
+	background: darkblue;
+	color: yellow;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	line-height: 200px;
+	padding: 10px;
+	margin: 20px;
+}
